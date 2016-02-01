@@ -4,13 +4,9 @@ This work is licensed under the Creative Commons CC0 License
 
 ---
 
-# Title goes here
+# Project Documentation Deliverables
 ### xtUML Project Design Note
 
-
-Note: Each section has a description that states the purpose of that section.
-Delete these section descriptions before checking in your note.  Delete this
-note as well.
 
 1. Abstract
 -----------
@@ -19,11 +15,11 @@ describe.
 
 2. Document References
 ----------------------
-In this section, list all the documents that the reader may need to refer to.
-Give the full path to reference a file.  
-<a id="2.1"></a>2.1 [BridgePoint DEI #xxx1](https://support.onefact.net/issues/xxx1) TODO: Add description here.  
-<a id="2.2"></a>2.3 [BridgePoint DEI #xxx2](https://support.onefact.net/issues/xxx2) TODO: Add description here.  
-<a id="2.3"></a>2.3 [BridgePoint DEI #xxx3](https://support.onefact.net/issues/xxx3) TODO: Add description here.  
+<a id="2.1"></a>2.1 [#8298](https://support.onefact.net/issues/8298) TODO: Parent task.  
+<a id="2.2"></a>2.3 [#8226](https://support.onefact.net/issues/8226) TODO: Migration Guide for Single Domain import flow.  
+<a id="2.3"></a>2.3 [#8256](https://support.onefact.net/issues/8256) TODO: MASL Project Conversion guide: System level Modeling flow.
+<a id="2.4"></a>2.4 [#8301](https://support.onefact.net/issues/8301) TODO: Integrate MASL reference manual into BridgePoint Help
+<a id="2.5"></a>2.5 [#8302](https://support.onefact.net/issues/8302) TODO: Guide for xtUML export to MASL
 
 3. Background
 -------------
@@ -33,19 +29,19 @@ document. Here is an example reference to the Document References section [[2.1]
 
 4. Requirements
 ---------------
-This section is only required if there is no preceding analysis note. 
-If present it describes the requirements that need to be satisfied.  If there 
-is an SRS, this section may simply refer to it.  Each requirement should be as 
-short and simple as possible and must be clearly defined. Here is an example reference to the Document References section [[2.1]](#2.1)
+[[2.1]](#2.1)
 
-4.1 Item 1  
-4.1.1 Example sub-item
-* Example List Element
-  * Example Sub list item
+4.1 Migration guide for single domain import flow.  
+4.1.1 This informative document explains HOWTO convert an existing MASL model into an xtUML model. It explains the flow of migrating data from a model expressed as MASL into BridgePoint. The required tools and steps are listed.
 
-4.2 Item 2  
-4.2.1 Example sub-item
-* Example List Element
+4.2 MASL project conversion guide: System level modeling flow <br>
+4.2.1 xtUML provides a graphical UML approach to multi-domain systems. Wiring of domains together as components through interfaces and using shared data types is supported. This guide explains the steps needed to convert a MASL system model into an xtUML system model.
+
+4.3 Integrate MASL reference manual into Bridgepoint Help
+4.3.1 
+
+4.4 Guide for xtUML export to MASL
+4.4.1 
 
 5. Analysis
 -----------
